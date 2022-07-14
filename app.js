@@ -83,7 +83,24 @@ search.addEventListener("input", function(){
             element.style.display = "none";
         }
         // console.log(cardTxt);
-    })
+    });
+});
+let color=document.getElementById('color');
+let body=document.body;
+color.addEventListener('click',function () {
+body.style.backgroundColor=('blue')
+})
+let color1=document.getElementById('color1');
+color1.addEventListener('click',function () {
+body.style.backgroundColor=('yellow')
+})
+let color2=document.getElementById('color2');
+color2.addEventListener('click',function () {
+body.style.backgroundColor=('pink')
+})
+let color3=document.getElementById('color3');
+color3.addEventListener('click',function () {
+body.style.backgroundColor=('black')
 })
 
 /*
